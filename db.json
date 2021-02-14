@@ -1,0 +1,87 @@
+{
+  "user": {
+    "id": "int",
+    "name": "string",
+    "email": "string",
+    "password": "string",
+    "phone": "string"
+  },
+
+  "user_delivery_adresses": {
+    "id": "int",
+    "recipient_name": "string",
+    "adress": "string",
+    "city": "string",
+    "phone": "string",
+    "user_id": "int",
+    "is_default": "boolean"
+  },
+
+  "book": {
+    "id": "int",
+    "ean": "string",
+    "title": "string",
+    "description": "string",
+    "release_date": "date",
+    "publisher_id": "int",
+    "pages": "int",
+    "height": "double",
+    "width": "double",
+    "thickness": "double",
+    "weight": "double",
+    "format": "string",
+    "collection_id": "int",
+    "image": "string"
+  },
+
+  "author": {
+    "id": "int",
+    "name": "string",
+    "bio": "string",
+    "image": "string",
+    "wiki_url": "string"
+  },
+
+  "book_authors": {
+    "id": "int",
+    "book_id": "int",
+    "author_id": "int"
+  },
+
+  "publisher": {
+    "id": "int",
+    "name": "string",
+    "description": "string"
+  },
+
+  "collection": {
+    "id": "int",
+    "name": "string",
+    "description": "string"
+  },
+
+  "category": {
+    "id": "int",
+    "name": "string",
+    "description": "string",
+    "parent_id": "int"
+  },
+
+  "book_categories": {
+    "id": "int",
+    "book_id": "int",
+    "category_id": "int"
+  },
+
+  "store": {
+    "id": "int",
+    "name": "string",
+    "adress": "string",
+    "phone": "string",
+    "logo": "string",
+    "email": "string",
+    "api_url": "string",
+    "api_key": "string"
+  }
+
+}
