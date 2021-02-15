@@ -99,6 +99,15 @@
     "order_id":""
   },
 
+  "contact": {
+    "id": "int",
+    "name": "string",
+    "mail": "string",
+    "phone": "string",
+    "object": "string",
+    "message": "string"
+  },
+
   "settings":{
     "id": "int",
     "name": "string",
@@ -106,7 +115,8 @@
     "adreess": "string",
     "phone": "string",
     "unit_dimenssions": "string", // ex: cm \ m \ ...
-    "unit_weight": "string" // ex: g \ kg \ ...
+    "unit_weight": "string", // ex: g \ kg \ ...
+    "social_media": "int"
   },
 
   "social_media": {
@@ -120,7 +130,10 @@
     "id": "int",
     "name": "string",
     "adress": "string",
+    "longitude": "double",
+    "latitude": "double",
     "phone": "string",
+    "social_media": "int",
     "logo": "string",
     "email": "string",
     "api_url": "string",
